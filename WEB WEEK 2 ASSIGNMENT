@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata and character encoding -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sample Website with Form</title>
+    <!-- External stylesheets or additional head content can go here -->
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Our Website</h1>
+        <p>Your one-stop destination for all things amazing!</p>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Important Steps</h2>
+        <ol type="I">
+            <li>Register on our website.</li>
+            <li>Fill out the contact form.</li>
+            <li>Get started with our services.</li>
+            <li>Explore our offers and benefits.</li>
+            <li>Contact our support team for any help.</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section>
+        <h2>Explore the World</h2>
+        <img src="https://images.pexels.com/photos/1231234/pexels-photo-1231234.jpeg" alt="Beautiful landscape" width="100%" />
+    </section>
+
+    <!-- Table of Contacts -->
+    <section>
+        <h2>Contact Information</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>1234 Elm St, Springfield</td>
+                    <td>555-1234</td>
+                    <td>john.doe@email.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>5678 Oak Ave, Shelbyville</td>
+                    <td>555-5678</td>
+                    <td>jane.smith@email.com</td>
+                </tr>
+                <tr>
+                    <td>Michael Johnson</td>
+                    <td>91011 Pine Dr, Capital City</td>
+                    <td>555-9101</td>
+                    <td>michael.johnson@email.com</td>
+                </tr>
+                <tr>
+                    <td>Amy Lee</td>
+                    <td>1213 Maple Rd, Rivertown</td>
+                    <td>555-1213</td>
+                    <td>amy.lee@email.com</td>
+                </tr>
+                <tr>
+                    <td>Robert Brown</td>
+                    <td>1415 Cedar Ln, Lakeside</td>
+                    <td>555-1415</td>
+                    <td>robert.brown@email.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Register with Us</h2>
+        <form action="/submit" method="POST">
+            <!-- Name Field -->
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+            <!-- Email Field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+            <!-- Password Field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter a strong password" required>
+
+            <!-- Date Field -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <!-- Dropdown Menu -->
+            <label for="country">Select your Country:</label>
+            <select id="country" name="country">
+                <option value="usa">United States</option>
+                <option value="canada">Canada</option>
+                <option value="uk">United Kingdom</option>
+                <option value="india">India</option>
+            </select>
+
+            <!-- Radio Buttons -->
+            <fieldset>
+                <legend>Gender:</legend>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="other">Other</label>
+                <input type="radio" id="other" name="gender" value="other">
+            </fieldset>
+
+            <!-- Checkboxes -->
+            <fieldset>
+                <legend>Interests:</legend>
+                <label for="sports">Sports</label>
+                <input type="checkbox" id="sports" name="interests" value="sports">
+                <label for="music">Music</label>
+                <input type="checkbox" id="music" name="interests" value="music">
+                <label for="reading">Reading</label>
+                <input type="checkbox" id="reading" name="interests" value="reading">
+            </fieldset>
+
+            <!-- Submit Button -->
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Contact Information:</p>
+        <ul>
+            <li>Email: contact@samplewebsite.com</li>
+            <li>Phone: 123-456-7890</li>
+            <li>Address: 1234 Sample St, Sample City, SC 12345</li>
+        </ul>
+    </footer>
+
+</body>
+</html>
